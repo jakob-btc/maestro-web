@@ -1,0 +1,165 @@
+.caseStudiesArea {
+    background-color: #f9fafb;
+    .containerFluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+.singleCaseStudiesCard {
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+
+    .caseImage {
+        position: relative;
+
+        a {
+            display: block;
+            div {
+                display: block !important;
+            }
+            img {
+                display: block !important;
+            }
+        }
+        .content {
+            position: absolute;
+            left: 0;
+            bottom: -30px;
+            padding: 30px;
+            width: 100%;
+            height: 100%;
+            transition: var(--transition);
+            opacity: 0;
+            visibility: hidden;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #002434);
+
+            span {
+                font-size: 14px;
+                color: var(--white-color);
+                font-weight: 400;
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+            h3 {
+                font-size: 20px;
+                margin-bottom: 0;
+
+                a {
+                    color: var(--white-color);
+
+                    &:hover {
+                        color: var(--main-color);
+                    }
+                }
+            }
+        }
+    }
+    &:hover {
+        .caseImage {
+            .content {
+                opacity: 1;
+                visibility: visible;
+                bottom: 0;
+            }
+        }
+    }
+}
+.dTable {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.dTableCell {
+    display: table-cell;
+    vertical-align: bottom;
+}
+.seeAllCtn {
+    text-align: center;
+    margin-top: 10px;
+
+    a {
+        color: var(--black-color);
+        border-bottom: 1px solid var(--black-color);
+        line-height: 1;
+        transition: var(--transition);
+        font-size: var(--font-size);
+        font-weight: 400;
+        text-align: center;
+
+        &:hover {
+            color: var(--main-color);
+            border-bottom: 1px solid var(--main-color);
+            letter-spacing: 1px;
+        }
+    }
+}
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .singleCaseStudiesCard {
+        .caseImage {
+            .content {
+                opacity: 1;
+                visibility: visible;
+                bottom: 0;
+                padding: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .singleCaseStudiesCard {
+        .caseImage {
+            .content {
+                span {
+                    font-size: 13px;
+                }
+                h3 {
+                    font-size: 19px;
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .singleCaseStudiesCard {
+        .caseImage {
+            .content {
+                opacity: 1;
+                visibility: visible;
+                bottom: 0;
+                padding: 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .singleCaseStudiesCard {
+        .caseImage {
+            .content {
+                opacity: 1;
+                visibility: visible;
+                bottom: 0;
+                padding: 15px;
+
+                span {
+                    font-size: 13px;
+                }
+                h3 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}
+ 

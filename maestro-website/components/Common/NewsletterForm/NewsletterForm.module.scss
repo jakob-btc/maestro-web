@@ -1,0 +1,166 @@
+.newsletterInnerBox {
+    position: relative;
+    z-index: 9;
+    background-image: url(/images/newsletter-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin-bottom: -90px;
+
+    .newsletterContent {
+        h3 {
+            font-size: 35px;
+            color: var(--white-color);
+            margin-bottom: 0;
+        }
+    }
+    .newsletterForm {
+        position: relative;
+        margin-left: 25px;
+
+        .inputNewsletter {
+            display: block;
+            width: 100%;
+            background-color: var(--white-color);
+            border: 1px solid var(--white-color);
+            height: 70px;
+            padding: 20px 25px;
+            border-radius: 0;
+            outline: 0;
+            color: var(--black-color);
+    
+            &::placeholder {
+                color: var(--paragraph-color);
+                transition: var(--transition);
+            }
+            &:focus {
+                &::placeholder {
+                    color: transparent;
+                }
+            }
+        }
+        .defaultBtn {
+            position: absolute;
+            right: 2px;
+            top: 2px;
+            border: none;
+            height: 66px;
+            background: var(--black-color);
+            padding: 15px 45px;
+            text-align: center;
+            color: var(--white-color) !important;
+            font-size: var(--font-size);
+            font-weight: 400;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 0;
+            box-shadow: none;
+            overflow: hidden;
+            white-space: nowrap;
+
+            &::before {
+                background: var(--gradient-color);
+                content: '';
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 50%;
+                width: 550px;
+                height: 550px;
+                margin: auto;
+                border-radius: 50%;
+                z-index: -1;
+                transform-origin: top center;
+                transform: translateX(-50%) translateY(-5%) scale(.4);
+                transition: transform .9s;
+            }
+            &:hover {
+                color: var(--white-color);
+        
+                &:before {
+                    transition: transform 1s;
+                    transform: translateX(-45%) translateY(0) scale(1);
+                    transform-origin: bottom center;
+                }
+            }
+        }
+    }  
+}
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .newsletterInnerBox {
+        padding: 30px;
+        text-align: center;
+
+        .newsletterContent {
+            h3 {
+                font-size: 25px;
+            }
+        }
+        .newsletterForm {
+            margin-left: 0;
+            margin-top: 30px;
+
+            .inputNewsletter {
+                height: 60px;
+                padding: 10px 20px;
+                font-size: 15px;
+            }
+
+            .defaultBtn {
+                position: relative;
+                left: 0;
+                top: 0;
+                margin-top: 10px;
+                width: 100%;
+                height: 60px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .newsletterInnerBox {
+        padding: 70px;
+        text-align: center;
+
+        .newsletterContent {
+            h3 {
+                font-size: 35px;
+            }
+        }
+        .newsletterForm {
+            margin-left: 0;
+            margin-top: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .newsletterInnerBox {
+        padding: 70px 50px;
+
+        .newsletterContent {
+            h3 {
+                font-size: 35px;
+            }
+        }
+        .newsletterForm {
+            margin-left: 0;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+ 

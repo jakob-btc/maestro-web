@@ -1,0 +1,197 @@
+.funfactInnerBox {
+  background-color: #f9fafb;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 150px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.funfactInnerBox::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 685px;
+  background-color: #f6f7fb;
+  z-index: -1;
+}
+
+.singleFunfactCard {
+  margin-bottom: 25px;
+  position: relative;
+  padding-left: 95px;
+}
+
+.singleFunfactCard .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.singleFunfactCard .icon i {
+  font-size: 70px;
+  background: -webkit-gradient(linear, left top, right top, from(#fc3b50), color-stop(#fe514b), color-stop(#ff6348), color-stop(#ff7446), to(#ff8346));
+  background: linear-gradient(to right, #fc3b50, #fe514b, #ff6348, #ff7446, #ff8346);
+  line-height: 0;
+  -webkit-background-clip: text;
+  background-clip: icon;
+  -webkit-text-fill-color: transparent;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.singleFunfactCard h3 {
+  font-size: 48px;
+  color: var(--main-color);
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.singleFunfactCard h3 .signIcon {
+  font-size: 45px;
+  position: relative;
+  top: -5px;
+  left: -5px;
+  font-weight: 500;
+}
+
+.singleFunfactCard p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .funfactInnerBox {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0px;
+  }
+  .funfactInnerBox::before {
+    display: none;
+  }
+  .singleFunfactCard {
+    padding-left: 0;
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 15px 5px;
+  }
+  .singleFunfactCard::before {
+    display: none;
+  }
+  .singleFunfactCard .icon {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .singleFunfactCard .icon i {
+    font-size: 50px;
+  }
+  .singleFunfactCard h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .singleFunfactCard h3 .signIcon {
+    font-size: 25px;
+    top: -3px;
+  }
+  .singleFunfactCard p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .singleFunfactCard {
+    border: 1px solid #eee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 115px;
+  }
+  .singleFunfactCard::before {
+    display: none;
+  }
+  .singleFunfactCard .icon {
+    left: 30px;
+    top: 25px;
+  }
+  .singleFunfactCard .icon i {
+    font-size: 60px;
+  }
+  .singleFunfactCard h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .singleFunfactCard h3 .signIcon {
+    font-size: 25px;
+    top: 0;
+  }
+  .singleFunfactCard p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .funfactInnerBox {
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 0px;
+  }
+  .funfactInnerBox::before {
+    display: none;
+  }
+  .singleFunfactCard {
+    padding-left: 85px;
+    border: 1px solid #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+  }
+  .singleFunfactCard::before {
+    display: none;
+  }
+  .singleFunfactCard .icon {
+    top: 20px;
+    left: 20px;
+  }
+  .singleFunfactCard .icon i {
+    font-size: 50px;
+  }
+  .singleFunfactCard h3 {
+    font-size: 30px;
+    margin-bottom: 4px;
+  }
+  .singleFunfactCard h3 .signIcon {
+    font-size: 25px;
+    top: 0;
+  }
+  .singleFunfactCard p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .singleFunfactCard {
+    padding-left: 85px;
+  }
+  .singleFunfactCard .icon {
+    top: 0px;
+  }
+  .singleFunfactCard .icon i {
+    font-size: 65px;
+  }
+  .singleFunfactCard h3 {
+    font-size: 40px;
+    margin-bottom: 4px;
+  }
+  .singleFunfactCard h3 .signIcon {
+    font-size: 35px;
+    top: -5px;
+  }
+  .singleFunfactCard p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=FunFact.module.css.map */

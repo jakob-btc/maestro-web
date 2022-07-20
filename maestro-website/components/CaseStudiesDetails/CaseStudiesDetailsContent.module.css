@@ -1,0 +1,187 @@
+.caseStudiesDetails h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.caseStudiesDetails h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.caseStudiesDetails h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.caseStudiesDetails h4 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.caseStudiesDetails h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.caseStudiesDetails h6 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.caseStudiesDetails ul, .caseStudiesDetails ol {
+  margin-bottom: 20px;
+}
+
+.caseStudiesDetails ul li, .caseStudiesDetails ol li {
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.caseStudiesDetails ul li:last-child, .caseStudiesDetails ol li:last-child {
+  margin-bottom: 0;
+}
+
+.caseStudiesDetails .img {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.caseStudiesDetails .videoInro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.caseStudiesDetails .videoInro .videoView {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 45%;
+  -webkit-transform: translateY(-45%);
+          transform: translateY(-45%);
+}
+
+.caseStudiesDetails .videoInro .videoBtn {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 115px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  color: var(--main-color);
+  text-align: center;
+  font-size: 50px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.caseStudiesDetails .videoInro .videoBtn i {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.caseStudiesDetails .videoInro .videoBtn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 1px solid var(--main-color);
+  animation: ripple 5s linear infinite;
+  -webkit-animation: ripple 5s linear infinite;
+}
+
+.caseStudiesDetails .videoInro .videoBtn:hover {
+  background-color: var(--main-color);
+}
+
+.caseStudiesDetails .videoInro .videoBtn:hover i {
+  color: var(--white-color);
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(1.75);
+            transform: scale(1.75);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(1.75);
+            transform: scale(1.75);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .caseStudiesDetails h1 {
+    font-size: 25px;
+  }
+  .caseStudiesDetails h2 {
+    font-size: 25px;
+  }
+  .caseStudiesDetails h3 {
+    font-size: 25px;
+  }
+  .caseStudiesDetails .img {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .caseStudiesDetails .videoInro {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .caseStudiesDetails .videoInro .videoBtn {
+    width: 60px;
+    height: 60px;
+    line-height: 70px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .caseStudiesDetails h1 {
+    font-size: 30px;
+  }
+  .caseStudiesDetails h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .caseStudiesDetails h1 {
+    font-size: 30px;
+  }
+  .caseStudiesDetails h2 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=CaseStudiesDetailsContent.module.css.map */

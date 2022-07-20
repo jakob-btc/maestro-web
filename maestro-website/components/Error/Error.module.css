@@ -1,0 +1,15 @@
+.errorContent {
+  text-align: center;
+}
+
+.errorContent h3 {
+  margin-top: 45px;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.errorContent p {
+  max-width: 550px;
+  margin: auto;
+}
+/*# sourceMappingURL=Error.module.css.map */

@@ -1,0 +1,148 @@
+.servicesDetailsContent span {
+  font-size: var(--font-size);
+  color: var(--main-color);
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.servicesDetailsContent h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.servicesDetailsContent h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.servicesDetailsContent h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.servicesDetailsContent h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.servicesDetailsContent h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.servicesDetailsContent h6 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.servicesDetailsContent a {
+  color: var(--mail-color);
+}
+
+.servicesDetailsContent .img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.servicesDetailsContent ul {
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.servicesDetailsContent ul li {
+  list-style-type: none;
+  color: var(--paragraph-color);
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.servicesDetailsContent ul li::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 8px;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: var(--main-color);
+  border-radius: 50px;
+}
+
+.servicesDetailsContent ul li:last-child {
+  margin-bottom: 0;
+}
+
+.servicesDetailsContent ol {
+  margin-bottom: 15px;
+}
+
+.servicesDetailsContent ol li {
+  color: var(--paragraph-color);
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
+.servicesDetailsContent ol li:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .servicesDetailsContent span {
+    margin-bottom: 15px;
+  }
+  .servicesDetailsContent h1 {
+    font-size: 30px;
+  }
+  .servicesDetailsContent h2 {
+    font-size: 25px;
+  }
+  .servicesDetailsContent h3 {
+    font-size: 25px;
+  }
+  .servicesDetailsContent h4 {
+    font-size: 25px;
+  }
+  .servicesDetailsContent .img {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .servicesDetailsContent span {
+    margin-bottom: 15px;
+  }
+  .servicesDetailsContent h1 {
+    font-size: 30px;
+  }
+  .servicesDetailsContent h2 {
+    font-size: 25px;
+  }
+  .servicesDetailsContent h3 {
+    font-size: 25px;
+  }
+  .servicesDetailsContent h4 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .servicesDetailsContent span {
+    margin-bottom: 15px;
+  }
+  .servicesDetailsContent h1 {
+    font-size: 30px;
+  }
+  .servicesDetailsContent h2 {
+    font-size: 25px;
+  }
+  .servicesDetailsContent h3 {
+    font-size: 25px;
+  }
+  .servicesDetailsContent h4 {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=ServicesDetailsContent.module.css.map */

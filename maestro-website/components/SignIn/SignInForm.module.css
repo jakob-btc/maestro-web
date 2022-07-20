@@ -1,0 +1,264 @@
+.signInForm {
+  max-width: 550px;
+  margin: auto;
+  background-color: var(--white-color);
+  -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+          box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+  padding: 45px 35px;
+  border-radius: 5px;
+}
+
+.signInForm h2 {
+  margin-bottom: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.signInForm p {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.signInForm form {
+  margin-top: 35px;
+}
+
+.signInForm form .formGroup {
+  margin-bottom: 25px;
+}
+
+.signInForm form .formGroup label {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--black-color);
+  font-weight: 500;
+}
+
+.signInForm form .formGroup .formControl {
+  height: 60px;
+  display: block;
+  width: 100%;
+  padding: 15px 25px;
+  line-height: initial;
+  color: var(--paragraph-color);
+  background-color: transparent;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: var(--font-size);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.signInForm form .formGroup .formControl::-webkit-input-placeholder {
+  color: var(--paragraph-color);
+}
+
+.signInForm form .formGroup .formControl:-ms-input-placeholder {
+  color: var(--paragraph-color);
+}
+
+.signInForm form .formGroup .formControl::-ms-input-placeholder {
+  color: var(--paragraph-color);
+}
+
+.signInForm form .formGroup .formControl::placeholder {
+  color: var(--paragraph-color);
+}
+
+.signInForm form .formGroup .formControl:focus::-webkit-input-placeholder {
+  color: transparent;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.signInForm form .formGroup .formControl:focus:-ms-input-placeholder {
+  color: transparent;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.signInForm form .formGroup .formControl:focus::-ms-input-placeholder {
+  color: transparent;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.signInForm form .formGroup .formControl:focus::placeholder {
+  color: transparent;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.signInForm form .formGroup .formControl:focus-visible {
+  outline: 0;
+}
+
+.signInForm form .rememberMeWrap {
+  margin-bottom: 0;
+}
+
+.signInForm form .rememberMeWrap label {
+  font-size: 14px !important;
+}
+
+.signInForm form .rememberMeWrap [type="checkbox"]:checked, .signInForm form .rememberMeWrap [type="checkbox"]:not(:checked) {
+  display: none;
+}
+
+.signInForm form .rememberMeWrap [type="checkbox"]:checked + label, .signInForm form .rememberMeWrap [type="checkbox"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0;
+  color: var(--black-color);
+  font-weight: 400;
+  font-size: var(--font-size);
+}
+
+.signInForm form .rememberMeWrap [type="checkbox"]:checked + label:before, .signInForm form .rememberMeWrap [type="checkbox"]:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  background: #eeeeee;
+}
+
+.signInForm form .rememberMeWrap [type="checkbox"]:checked + label:after, .signInForm form .rememberMeWrap [type="checkbox"]:not(:checked) + label:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: var(--main-color);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-radius: 30px;
+}
+
+.signInForm form .rememberMeWrap [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.signInForm form .rememberMeWrap [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.signInForm form .rememberMeWrap [type="checkbox"]:hover + label:before {
+  border-color: var(--main-color);
+}
+
+.signInForm form .rememberMeWrap [type="checkbox"]:checked + label:before {
+  border-color: var(--main-color);
+}
+
+.signInForm form .lostYourPasswordWrap {
+  text-align: right;
+}
+
+.signInForm form .lostYourPasswordWrap a {
+  display: inline-block;
+  position: relative;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--black-color);
+  font-size: 14px;
+}
+
+.signInForm form .lostYourPasswordWrap a::before {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background-color: #eeeeee;
+}
+
+.signInForm form .lostYourPasswordWrap a::after {
+  width: 0;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  bottom: 0;
+  content: '';
+  background-color: var(--main-color);
+}
+
+.signInForm form .lostYourPasswordWrap a:hover::before {
+  width: 0;
+}
+
+.signInForm form .lostYourPasswordWrap a:hover::after {
+  width: 100%;
+}
+
+.signInForm form .signInBtn {
+  text-align: center;
+}
+
+.signInForm form .signInBtn button {
+  border: none;
+  margin-top: 30px;
+}
+
+.signInForm form .accountText {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signInForm form .accountText span {
+  color: var(--paragraph-color);
+}
+
+.signInForm form .accountText span a {
+  color: var(--main-color);
+}
+
+@media only screen and (max-width: 767px) {
+  .signInForm {
+    padding: 30px 20px;
+  }
+  .signInForm form {
+    margin-top: 20px;
+  }
+  .signInForm form .formGroup {
+    margin-bottom: 25px;
+  }
+  .signInForm form .formGroup label {
+    font-size: 14px;
+  }
+  .signInForm form .formGroup .formControl {
+    height: 50px;
+    font-size: 14px;
+  }
+  .signInForm form .rememberMeWrap label {
+    font-size: 12.6px !important;
+  }
+  .signInForm form .lostYourPasswordWrap a {
+    font-size: 12.6px;
+  }
+  .signInForm form .accountText span {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=SignInForm.module.css.map */

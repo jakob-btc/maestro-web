@@ -1,0 +1,120 @@
+.singleTeamCard {
+    margin-bottom: 25px;
+    transition: var(--transition);
+
+    .teamImage {
+        position: relative;
+
+        div {
+            display: block !important;
+        }
+
+        .actionList {
+            padding: 0;
+            margin-bottom: 0;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            text-align: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+
+            li {
+                list-style-type: none;
+                display: inline-block;
+                margin: 0;
+                border-right: 1px solid #ebe7e4;
+
+                &:last-child {
+                    border-right: none;
+                }
+                a {
+                    background-color: #fffbf4;
+                    padding: 15px;
+                    line-height: 0;
+                    color: var(--paragraph-color);
+
+                    i {
+                        font-size: 18px;
+                    }
+                    &:hover {
+                        background-color: var(--main-color);
+                        color: var(--white-color);
+                    }
+                }
+            }
+        }
+    }
+    .teamContent {
+        margin-top: 25px;
+        text-align: center;
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+        span {
+            display: inline-block;
+            margin-top: 10px;
+            color: var(--paragraph-color);
+        }
+    }
+    &:hover {
+        .actionList {
+            opacity: 1;
+            visibility: visible;
+            bottom: 30px;
+        }
+    }
+}
+.seeMoreBtn {
+    margin-top: 20px;
+    a {
+        color: var(--black-color);
+        border-bottom: 1px solid var(--black-color);
+        &:hover {
+            border-bottom: 1px solid var(--main-color);
+            color: var(--main-color);
+        }
+    }
+}
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .singleTeamCard {
+
+        .teamImage {
+            .actionList {
+                opacity: 1;
+                visibility: visible;
+                bottom: 30px;
+                li {
+                    a {
+                        padding: 10px;
+                        i {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}

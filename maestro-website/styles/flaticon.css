@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("/fonts/flaticon.ttf?5608294b7ffb19c8707c457417f0b48c") format("truetype"),
+    url("/fonts/flaticon.woff?5608294b7ffb19c8707c457417f0b48c") format("woff"),
+    url("/fonts/flaticon.woff2?5608294b7ffb19c8707c457417f0b48c") format("woff2"),
+    url("/fonts/flaticon.eot?5608294b7ffb19c8707c457417f0b48c#iefix") format("embedded-opentype"),
+    url("/fonts/flaticon.svg?5608294b7ffb19c8707c457417f0b48c#flaticon") format("svg");
+}
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.flaticon-customer-service:before {
+    content: "\f101";
+}
+.flaticon-experience:before {
+    content: "\f102";
+}
+.flaticon-cyber-security:before {
+    content: "\f103";
+}
+.flaticon-consulting:before {
+    content: "\f104";
+}
+.flaticon-product-design:before {
+    content: "\f105";
+}
+.flaticon-technical-support:before {
+    content: "\f106";
+}
+.flaticon-customers:before {
+    content: "\f107";
+}
+.flaticon-user-experience:before {
+    content: "\f108";
+}
+.flaticon-award:before {
+    content: "\f109";
+}
+.flaticon-straight-quotes:before {
+    content: "\f10a";
+}
+.flaticon-technical-support-1:before {
+    content: "\f10b";
+}
+.flaticon-solution:before {
+    content: "\f10c";
+}
+.flaticon-mobile-app:before {
+    content: "\f10d";
+}
+.flaticon-ux-design:before {
+    content: "\f10e";
+}
+.flaticon-web-development:before {
+    content: "\f10f";
+}
+.flaticon-digital-marketing:before {
+    content: "\f110";
+}
+.flaticon-left:before {
+    content: "\f111";
+}
+.flaticon-right:before {
+    content: "\f112";
+}
+.flaticon-clock:before {
+    content: "\f113";
+}
+.flaticon-pin:before {
+    content: "\f114";
+}
+.flaticon-call:before {
+    content: "\f115";
+}
+.flaticon-email:before {
+    content: "\f116";
+}
+.flaticon-worldwide:before {
+    content: "\f117";
+}
+.flaticon-laptop:before {
+    content: "\f118";
+}
+.flaticon-complete:before {
+    content: "\f119";
+}

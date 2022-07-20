@@ -1,0 +1,104 @@
+.servicesArea {
+  position: relative;
+  background-color: #0a0b1c;
+}
+
+.colorWhite {
+  color: var(--white-color) !important;
+}
+
+.singleServicesCard {
+  background-color: #1b1c30;
+  padding: 45px 30px;
+  margin-bottom: 25px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.singleServicesCard .icon {
+  line-height: 0;
+  margin-bottom: 25px;
+}
+
+.singleServicesCard .icon i {
+  font-size: 75px;
+  line-height: 0;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background: -webkit-gradient(linear, left top, right top, from(#fc3b50), color-stop(#fe514b), color-stop(#ff6348), color-stop(#ff7446), to(#ff8346));
+  background: linear-gradient(to right, #fc3b50, #fe514b, #ff6348, #ff7446, #ff8346);
+  line-height: 0;
+  -webkit-background-clip: text;
+  background-clip: icon;
+  -webkit-text-fill-color: transparent;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.singleServicesCard h3 {
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.singleServicesCard h3 a {
+  color: var(--white-color);
+}
+
+.singleServicesCard p {
+  color: var(--white-color);
+  margin-bottom: 0;
+  font-size: 15px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.singleServicesCard .servicesBtn {
+  color: var(--white-color);
+  font-size: 15px;
+  margin-top: 20px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.singleServicesCard:hover {
+  background-color: var(--white-color);
+}
+
+.singleServicesCard:hover h3 a {
+  color: var(--black-color);
+}
+
+.singleServicesCard:hover p {
+  color: var(--paragraph-color);
+}
+
+.singleServicesCard:hover .servicesBtn {
+  color: var(--main-color);
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 767px) {
+  .singleServicesCard {
+    padding: 30px 22px;
+  }
+  .singleServicesCard h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .singleServicesCard {
+    padding: 30px 22px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .singleServicesCard {
+    padding: 30px 20px;
+  }
+  .singleServicesCard h3 {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=ServiceSlider.module.css.map */

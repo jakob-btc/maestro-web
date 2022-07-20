@@ -1,0 +1,128 @@
+.pricingArea {
+    position: relative;
+}
+.singlePricingTable {
+    margin-bottom: 25px;
+    background-color: #f9fafb;
+    padding: 45px;
+    transition: var(--transition);
+
+    .pricingHeader {
+        text-align: center;
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 0;
+            transition: var(--transition);
+        }
+    }
+    .price {
+        font-size: 72px;
+        font-family: var(--heading-font-family);
+        font-weight: bold;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        transition: var(--transition);
+        color: #212529;
+
+        span {
+            font-size: var(--font-size);
+            color: var(--paragraph-color);
+            font-family: var(--main-font-family);
+            font-weight: 400;
+            position: relative;
+            right: 15px;
+            transition: var(--transition);
+        }
+    }
+    .featuresList {
+        padding: 0;
+        margin-bottom: 0;
+
+        li {
+            list-style-type: none;
+            color: var(--paragraph-color);
+            font-weight: 400;
+            font-size: var(--font-size);
+            margin-bottom: 18px;
+            position: relative;
+            padding-left: 25px;
+            transition: var(--transition);
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+            i {
+                font-size: 20px;
+                color: var(--main-color);
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+    .pricingBtn {
+        margin-top: 30px;
+    }
+    &:hover {
+        background-color: var(--black-color);
+        transform: translateY(-5px);
+
+        .pricingHeader {
+            h3 {
+                color: var(--white-color);
+            }
+        }
+        .price {
+            color: var(--white-color);
+
+            span {
+                color: var(--white-color);
+            }
+        }
+        .featuresList {
+            li {
+                color: var(--white-color);
+            }
+        }
+    }
+}
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .singlePricingTable {
+        padding: 30px 25px;
+
+        .price {
+            font-size: 45px;
+        }        
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .singlePricingTable {
+        padding: 30px 25px;
+        .price {
+            font-size: 45px;
+        }        
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .singlePricingTable {
+        padding: 30px 25px;
+        .price {
+            font-size: 45px;
+        }        
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}

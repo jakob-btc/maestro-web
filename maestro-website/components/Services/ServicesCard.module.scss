@@ -1,0 +1,102 @@
+.servicesArea {
+    position: relative;
+}
+.singleServicesCard {
+    background-color: #f4f2ef;
+    padding: 45px 30px;
+    margin-bottom: 25px;
+    transition: var(--transition);
+    .content {
+        position: relative;
+    }
+    .icon { 
+        line-height: 0;
+        margin-bottom: 25px;
+
+        i {
+            font-size: 75px;
+            line-height: 0;
+            transition: var(--transition);
+            background: linear-gradient(to right, #fc3b50, #fe514b, #ff6348, #ff7446, #ff8346);
+            line-height: 0;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: icon;
+            -webkit-text-fill-color:transparent;
+            display: inline-flex;
+        }
+    }
+    h3 {
+        font-size: 22px;
+        margin-bottom: 18px;
+
+        a {
+            color: var(--black-color);
+        }
+    }
+    p {
+        color: var(--paragraph-color);
+        margin-bottom: 0;
+        font-size: 15px;
+        transition: var(--transition);
+    }
+    .servicesBtn {
+        color: var(--black-color);
+        font-size: 15px;
+        margin-top: 20px;
+        transition: var(--transition);
+    }
+    &:hover {
+        position: relative;
+        background-color: #1b1c30;
+
+        h3 {
+            a {
+                color: var(--white-color);
+            }
+        }
+        p {
+            color: var(--white-color);
+        }
+        .servicesBtn {
+            color: var(--main-color);
+            letter-spacing: 1px;
+        }
+    }
+}
+
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .singleServicesCard {
+        padding: 30px 22px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .singleServicesCard {
+        padding: 30px 22px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .singleServicesCard {
+        padding: 30px 20px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,90 @@
+/* Page Banner Area */
+.pageBannerArea {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 110px;
+  position: relative;
+  z-index: 1;
+}
+
+.pageBannerArea::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--gradient-color);
+  z-index: -1;
+  opacity: .90;
+}
+
+.pageTitleContent {
+  text-align: center;
+}
+
+.pageTitleContent h2 {
+  font-size: 70px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: var(--white-color);
+}
+
+.pageTitleContent ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.pageTitleContent ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: var(--font-size);
+  font-weight: 400;
+  color: var(--white-color);
+  position: relative;
+  margin-left: 25px;
+}
+
+.pageTitleContent ul li::before {
+  content: '';
+  position: absolute;
+  left: -16px;
+  top: 10px;
+  height: 5px;
+  width: 5px;
+  background: var(--white-color);
+  border-radius: 50px;
+}
+
+.pageTitleContent ul li:first-child {
+  margin-left: 0;
+}
+
+.pageTitleContent ul li:first-child::before {
+  display: none;
+}
+
+.pageTitleContent ul li a {
+  display: block;
+  color: var(--white-color);
+}
+
+@media only screen and (max-width: 767px) {
+  .pageBannerArea {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .pageTitleContent h2 {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pageTitleContent h2 {
+    font-size: 50px;
+  }
+}
+/*# sourceMappingURL=PageBanner.module.css.map */

@@ -1,0 +1,141 @@
+.chooseUsArea {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.chooseUsArea .containerFluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.chooseUsImage div, .chooseUsImage img {
+  width: 100%;
+}
+
+.chooseUsContent {
+  margin-left: 30px;
+  max-width: 605px;
+}
+
+.chooseUsContent span {
+  font-size: var(--font-size);
+  color: var(--main-color);
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.chooseUsContent h3 {
+  font-size: 40px;
+  margin-bottom: 18px;
+  line-height: 1.4;
+}
+
+.chooseUsContent p {
+  margin-bottom: 0;
+}
+
+.chooseUsContent .chooseInnerContent {
+  position: relative;
+  margin-top: 30px;
+  padding-left: 70px;
+}
+
+.chooseUsContent .chooseInnerContent .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.chooseUsContent .chooseInnerContent .icon i {
+  font-size: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#fc3b50), color-stop(#fe514b), color-stop(#ff6348), color-stop(#ff7446), to(#ff8346));
+  background: linear-gradient(to right, #fc3b50, #fe514b, #ff6348, #ff7446, #ff8346);
+  line-height: 0;
+  -webkit-background-clip: text;
+  background-clip: icon;
+  -webkit-text-fill-color: transparent;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.chooseUsContent .chooseInnerContent h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.chooseUsContent .chooseInnerContent p {
+  margin-bottom: 0;
+}
+
+.chooseUsContent .chooseInnerContent .list {
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 18px;
+}
+
+.chooseUsContent .chooseInnerContent .list li {
+  list-style-type: none;
+  color: var(--paragraph-color);
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 18px;
+}
+
+.chooseUsContent .chooseInnerContent .list li::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 5px;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: var(--main-color);
+  border-radius: 50px;
+}
+
+.chooseUsContent .chooseInnerContent .list li:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .chooseUsArea .containerFluid {
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+  }
+  .chooseUsContent {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .chooseUsContent span {
+    font-size: 14px;
+  }
+  .chooseUsContent h3 {
+    font-size: 25px;
+  }
+  .chooseUsContent .chooseInnerContent h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .chooseUsContent {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .chooseUsContent h3 {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .chooseUsContent {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .chooseUsContent h3 {
+    font-size: 35px;
+  }
+}
+/*# sourceMappingURL=WhyChooseUs.module.css.map */

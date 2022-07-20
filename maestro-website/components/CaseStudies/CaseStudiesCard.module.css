@@ -1,0 +1,95 @@
+@charset "UTF-8";
+.singleCaseStudiesBox {
+  background-color: #f9fafb;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  margin-bottom: 25px;
+  border: 1px solid #eeeeee;
+}
+
+.singleCaseStudiesBox .caseContent {
+  padding: 0 20px 0 10px;
+}
+
+.singleCaseStudiesBox .caseContent span {
+  font-size: var(--font-size);
+  color: var(--main-color);
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.singleCaseStudiesBox .caseContent h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.singleCaseStudiesBox .caseContent h3 a {
+  color: var(--black-color);
+}
+
+.singleCaseStudiesBox .caseContent p {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.singleCaseStudiesBox .caseContent .caseBtn {
+  font-size: var(--font-size);
+  color: var(--black-color);
+  font-weight: 400;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.singleCaseStudiesBox:hover {
+  background-color: var(--black-color);
+}
+
+.singleCaseStudiesBox:hover .caseContent h3 a {
+  color: var(--white-color);
+}
+
+.singleCaseStudiesBox:hover .caseContent p {
+  color: var(--white-color);
+}
+
+.singleCaseStudiesBox:hover .caseContent .caseBtn {
+  color: var(--white-color);
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 767px) {
+  .singleCaseStudiesBox {
+    padding: 0;
+  }
+  .singleCaseStudiesBox .caseContent {
+    padding: 15px 20px 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .singleCaseStudiesBox {
+    padding: 0;
+  }
+  .singleCaseStudiesBox .caseContent {
+    padding: 15px ​20px 15px 0p;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .singleCaseStudiesBox {
+    padding: 0;
+  }
+  .singleCaseStudiesBox .caseContent {
+    padding: 25px 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .singleCaseStudiesBox .caseContent {
+    padding: 0 15px 0 0;
+  }
+}
+/*# sourceMappingURL=CaseStudiesCard.module.css.map */

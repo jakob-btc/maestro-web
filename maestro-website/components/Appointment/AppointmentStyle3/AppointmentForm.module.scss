@@ -1,0 +1,190 @@
+.appointmentFormWrap {
+    background-color: #2f3045;
+    padding: 45px;
+    text-align: center;
+    margin-left: 30px;
+
+    .content {
+        margin-bottom: 35px;
+
+        h3 {
+            font-size: 40px;
+            margin-bottom: 0;
+            color: #fff;
+        }
+    }
+    .appointmentForm {
+        .formGroup {
+            margin-bottom: 15px;
+
+            .formControl {
+                height: unset;
+                display: inline-block;
+                padding: 20px 25px;
+                width: 100%;
+                border: none;
+                border: 1px solid #cccccc;
+                background-color: #fff;
+                border-radius: 0;
+                color: var(--paragraph-color);
+                font-size: var(--font-size);
+                font-weight: 400;
+                transition: var(--transition);
+    
+                &::placeholder {
+                    transition: var(--transition);
+                    color: var(--paragraph-color);
+                }
+                &:focus {
+                    box-shadow: unset;
+                    border: 1px solid var(--main-color);
+    
+                    &::placeholder {
+                        color: transparent;
+                    }
+                }
+                &:focus-visible {
+                    outline: 0;
+                }
+            }
+            .formSelect {
+                select {
+                    height: unset;
+                    display: inline-block;
+                    padding: 20px 25px;
+                    width: 100%;
+                    border: none;
+                    border: 1px solid #cccccc;
+                    background-color: #fff;
+                    border-radius: 0;
+                    color: var(--paragraph-color);
+                    font-size: var(--font-size);
+                    font-weight: 400;
+                    transition: var(--transition);
+        
+                    &::placeholder {
+                        transition: var(--transition);
+                        color: var(--paragraph-color);
+                    }
+                    &:focus {
+                        box-shadow: unset;
+                        border: 1px solid var(--main-color);
+        
+                        &::placeholder {
+                            color: transparent;
+                        }
+                    }
+                    &:focus-visible {
+                        outline: 0;
+                    }
+                }
+            }
+        }
+        .default-btn {
+            border: none;
+            width: 100%;
+            padding: 20px 25px;
+
+            &::before {
+                width: 850px;
+                height: 850px;
+            }
+        }
+    }
+}
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .appointmentFormWrap {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 20px;
+
+        .content {
+            margin-bottom: 20px;
+            h3 {
+                font-size: 25px;
+            }
+        }
+        .appointmentForm {
+            .formGroup {
+                .formControl {
+                    padding: 15px 20px;
+                    font-size: 15px;
+                }
+                .formSelect {
+                    select {
+                        padding: 15px 20px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appointmentFormWrap {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 30px;
+
+        .content {
+            margin-bottom: 20px;
+            h3 {
+                font-size: 30px;
+            }
+        }
+        .appointmentForm {
+            .formGroup {
+                .formControl {
+                    padding: 15px 20px;
+                    font-size: 15px;
+                }
+                .formSelect {
+                    select {
+                        padding: 15px 20px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .appointmentFormWrap {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 30px;
+
+        .content {
+            margin-bottom: 20px;
+            h3 {
+                font-size: 30px;
+            }
+        }
+        .appointmentForm {
+            .formGroup {
+                .formControl {
+                    padding: 15px 20px;
+                    font-size: 15px;
+                }
+                .formSelect {
+                    select {
+                        padding: 15px 20px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}

@@ -1,0 +1,190 @@
+.aboutArea {
+    position: relative;
+    z-index: 1;
+}
+.aboutContent {
+    span {
+        font-size: var(--font-size);
+        color: var(--main-color);
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    h3 {
+        font-size: 40px;
+        margin-bottom: 18px;
+        line-height: 1.3;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    .contentBox {
+        position: relative;
+        margin-top: 30px;
+        padding-left: 70px;
+
+        .icon {
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            i {
+                font-size: 50px;
+                background: linear-gradient(to right, #fc3b50, #fe514b, #ff6348, #ff7446, #ff8346);
+                line-height: 0;
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                background-clip: icon;
+                -webkit-text-fill-color:transparent;
+                display: inline-flex;
+            }
+        }
+        h4 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+    .innerContentBox {
+        margin-top: 30px;
+
+        h4 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+    .aboutBtn {
+        margin-top: 30px;
+    }
+}
+.aboutImage {
+    margin-left: 50px;
+    position: relative;
+
+    .sinceText {
+        display: inline-block;
+        height: 150px;
+        width: 150px;
+        background: var(--gradient-color);
+        font-family: var(--heading-font-family);
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        left: 10px;
+        bottom: -5px;
+
+        span {
+            font-size: 30px;
+            font-weight: 500;
+            color: var(--white-color);
+            position: relative;
+            top: 25px;
+        }
+    }
+}
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .aboutContent {
+        span {
+            font-size: 14px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+        .contentBox {
+            padding-left: 0;
+
+            .icon {
+                position: relative;
+                margin-bottom: 15px;
+            }
+            h4 {
+                font-size: 18px;
+            }
+        }
+        .innerContentBox {
+            h4 {
+                font-size: 18px;
+            }
+        }
+        .aboutBtn {
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+    .aboutImage {
+        margin-left: 0;
+        margin-top: 30px;
+
+        .sinceText {
+            height: 120px;
+            width: 120px;
+            left: 5px;
+            bottom: 5px;
+
+            span {
+                font-size: 25px;
+                top: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .aboutContent {
+        h3 {
+            font-size: 35px;
+        }
+    }
+    .aboutImage {
+        margin-left: 0;
+        margin-top: 30px;
+
+        .sinceText {
+            height: 120px;
+            width: 120px;
+            left: 5px;
+            bottom: 5px;
+
+            span {
+                font-size: 25px;
+                top: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .aboutContent {
+        span {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 35px;
+        }
+        .contentBox {
+            padding-left: 42px;
+
+            .icon {
+                i {
+                    font-size: 30px;
+                }
+            }
+            h4 {
+                font-size: var(--font-size);
+            }
+        }
+    }
+    .aboutImage {
+        margin-left: 20px;
+    }
+}

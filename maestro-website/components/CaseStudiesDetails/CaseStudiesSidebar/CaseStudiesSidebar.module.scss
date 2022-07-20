@@ -1,0 +1,110 @@
+.widgetArea {
+    padding-left: 20px;
+
+    .widget {
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .widgetTitle {
+            margin-bottom: 25px;
+            position: relative;
+            font-size: 24px;
+        }
+    }
+    .widgetContact {
+        background-color: #f9fafb;
+        padding: 30px;
+        border-radius: 5px;
+
+        .contactList {
+            padding: 0;
+            margin-bottom: 0;
+
+            li {
+                list-style-type: none;
+                margin-bottom: 15px;
+                color: var(--paragraph-color);
+                line-height: 30px;
+                position: relative;
+                padding-left: 80px;
+    
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                span {
+                    color: var(--main-color);
+                    font-size: var(--font-size);
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+                a {
+                    color: var(--paragraph-color);
+    
+                    &:hover {
+                        color: var(--main-color);
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .widgetArea {
+        padding-left: 0;
+        margin-top: 30px;
+    
+        .widget {
+            .widgetTitle {
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+        }
+        .widgetContact {
+            padding: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .widgetArea {
+        padding-left: 0;
+        margin-top: 30px;
+    
+        .widget {
+            .widgetTitle {
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .widgetArea {
+        padding-left: 0;
+ 
+        .widget {
+            .widgetTitle {
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+        }
+        .widgetContact {
+            padding: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}

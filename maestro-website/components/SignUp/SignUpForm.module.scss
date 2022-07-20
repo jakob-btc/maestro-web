@@ -1,0 +1,127 @@
+.signUpForm {
+    max-width: 550px;
+    margin: auto;
+    text-align: center;
+    background-color: var(--white-color);
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    padding: 45px 35px;
+    border-radius: 5px;
+    
+    h2 {
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    form {
+        margin-top: 35px;
+
+        .formGroup {
+            margin-bottom: 25px;
+            text-align: left;
+
+            label {
+                display: block;
+                margin-bottom: 10px;
+                color: var(--black-color);
+                font-weight: 500;
+            }
+            .formControl {
+                height: 60px;
+                padding: 15px 25px;
+                line-height: initial;
+                color: var(--paragraph-color);
+                background-color: transparent;
+                border: 1px solid #e1e1e1;
+                border-radius: 5px;
+                box-shadow: unset;
+                transition: var(--transition);
+                font-size: var(--font-size);
+                font-weight: 400;
+                display: block;
+                width: 100%;
+                font-size: 14px;
+
+                &::placeholder {
+                    color: var(--paragraph-color);
+                }
+                &:focus {
+                    &::placeholder {
+                        color: transparent;
+                        transition: var(--transition);
+                    }
+                }
+                &:focus-visible {
+                    outline: 0;
+                }
+            }
+        }
+        .description {
+            font-style: italic;
+            margin-bottom: 0;
+        }
+        .signUpBtn {
+            button {
+                border: none;
+                margin-top: 30px;
+            }
+        }
+        .accountText {
+            margin-top: 20px;
+
+            span {
+                color: var(--paragraph-color);
+
+                a {
+                    color: var(--main-color);
+                }
+            }
+        }
+    }
+}
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .signUpForm {
+        padding: 30px 20px;
+
+        form {
+            margin-top: 20px;
+    
+            .formGroup {
+                label {
+                    font-size: 15px;
+                }
+                .formControl {
+                    height: 50px;
+                }
+            }
+            .description {
+                font-style: italic;
+                margin-bottom: 0;
+            }
+            .accountText {
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}

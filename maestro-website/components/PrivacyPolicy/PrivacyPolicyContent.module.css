@@ -1,0 +1,87 @@
+.privacyPolicyContent h1 {
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+.privacyPolicyContent h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.privacyPolicyContent h3 {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.privacyPolicyContent h4 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.privacyPolicyContent h5 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.privacyPolicyContent h6 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.privacyPolicyContent .blockquote, .privacyPolicyContent blockquote {
+  margin-bottom: 30px;
+  background-color: #e6f2f5;
+  text-align: left !important;
+  padding: 15px 25px !important;
+  border-radius: 5px;
+  line-height: 1.5;
+}
+
+.privacyPolicyContent .blockquote p, .privacyPolicyContent blockquote p {
+  margin-bottom: 0;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.privacyPolicyContent .blockquote::after, .privacyPolicyContent blockquote::after {
+  display: none;
+}
+
+.privacyPolicyContent .blockquote::before, .privacyPolicyContent blockquote::before {
+  display: none;
+}
+
+.privacyPolicyContent ol, .privacyPolicyContent ul {
+  margin-bottom: 20px;
+}
+
+.privacyPolicyContent ol li, .privacyPolicyContent ul li {
+  margin-bottom: 10px;
+  color: var(--font-size);
+  line-height: 1.8;
+  font-weight: 400;
+  font-size: var(--font-size);
+  color: var(--paragraph-color);
+}
+
+@media only screen and (max-width: 767px) {
+  .termsOfServiceContent h1 {
+    font-size: 25px;
+  }
+  .termsOfServiceContent h2 {
+    font-size: 22px;
+  }
+  .termsOfServiceContent h3 {
+    font-size: 20px;
+  }
+  .termsOfServiceContent h4 {
+    font-size: 22px;
+  }
+  .termsOfServiceContent h5 {
+    font-size: 20px;
+  }
+  .termsOfServiceContent h6 {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=PrivacyPolicyContent.module.css.map */

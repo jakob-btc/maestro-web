@@ -1,0 +1,113 @@
+.contactGetInTouch {
+  margin-left: 35px;
+}
+
+.contactGetInTouch h3 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.contactGetInTouch .innerBox {
+  position: relative;
+  padding-left: 75px;
+  margin-bottom: 35px;
+}
+
+.contactGetInTouch .innerBox:last-child {
+  margin-bottom: 0;
+}
+
+.contactGetInTouch .innerBox .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.contactGetInTouch .innerBox .icon i {
+  display: inline-block;
+  height: 62px;
+  width: 62px;
+  line-height: 70px;
+  background: var(--gradient-color);
+  color: var(--white-color);
+  font-size: 28px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.contactGetInTouch .innerBox span {
+  font-weight: 500;
+  color: var(--main-color);
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.contactGetInTouch .innerBox p a {
+  color: var(--paragraph-color);
+}
+
+.contactGetInTouch .innerBox p a:hover {
+  color: var(--main-color);
+}
+
+@media only screen and (max-width: 767px) {
+  .contactGetInTouch {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .contactGetInTouch h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .contactGetInTouch .innerBox {
+    padding-left: 70px;
+    margin-bottom: 25px;
+  }
+  .contactGetInTouch .innerBox .icon i {
+    height: 50px;
+    width: 50px;
+    line-height: 55px;
+    font-size: 20px;
+    border-radius: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contactGetInTouch {
+    margin-left: 0;
+  }
+  .contactGetInTouch h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .contactGetInTouch .innerBox {
+    padding-left: 70px;
+    margin-bottom: 25px;
+  }
+  .contactGetInTouch .innerBox .icon i {
+    height: 50px;
+    width: 50px;
+    line-height: 55px;
+    font-size: 20px;
+    border-radius: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contactGetInTouch h3 {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  .contactGetInTouch .innerBox {
+    padding-left: 70px;
+    margin-bottom: 25px;
+  }
+  .contactGetInTouch .innerBox .icon i {
+    height: 50px;
+    width: 50px;
+    line-height: 55px;
+    font-size: 20px;
+    border-radius: 50px;
+  }
+}
+/*# sourceMappingURL=ContactInfo.module.css.map */

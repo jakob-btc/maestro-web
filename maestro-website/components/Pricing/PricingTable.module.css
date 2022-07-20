@@ -1,0 +1,130 @@
+.pricingArea {
+  position: relative;
+}
+
+.singlePricingTable {
+  margin-bottom: 25px;
+  background-color: #f9fafb;
+  padding: 45px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.singlePricingTable .pricingHeader {
+  text-align: center;
+}
+
+.singlePricingTable .pricingHeader h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.singlePricingTable .price {
+  font-size: 72px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: #212529;
+}
+
+.singlePricingTable .price span {
+  font-size: var(--font-size);
+  color: var(--paragraph-color);
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  position: relative;
+  right: 15px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.singlePricingTable .featuresList {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.singlePricingTable .featuresList li {
+  list-style-type: none;
+  color: var(--paragraph-color);
+  font-weight: 400;
+  font-size: var(--font-size);
+  margin-bottom: 18px;
+  position: relative;
+  padding-left: 25px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.singlePricingTable .featuresList li:last-child {
+  margin-bottom: 0;
+}
+
+.singlePricingTable .featuresList li i {
+  font-size: 20px;
+  color: var(--main-color);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.singlePricingTable .pricingBtn {
+  margin-top: 30px;
+}
+
+.singlePricingTable:hover {
+  background-color: var(--black-color);
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.singlePricingTable:hover .pricingHeader h3 {
+  color: var(--white-color);
+}
+
+.singlePricingTable:hover .price {
+  color: var(--white-color);
+}
+
+.singlePricingTable:hover .price span {
+  color: var(--white-color);
+}
+
+.singlePricingTable:hover .featuresList li {
+  color: var(--white-color);
+}
+
+@media only screen and (max-width: 767px) {
+  .singlePricingTable {
+    padding: 30px 25px;
+  }
+  .singlePricingTable .price {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .singlePricingTable {
+    padding: 30px 25px;
+  }
+  .singlePricingTable .price {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .singlePricingTable {
+    padding: 30px 25px;
+  }
+  .singlePricingTable .price {
+    font-size: 45px;
+  }
+}
+/*# sourceMappingURL=PricingTable.module.css.map */

@@ -1,0 +1,132 @@
+.careerFormWrap {
+  background-color: #f9fafb;
+  padding: 45px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.careerFormWrap .content {
+  margin-bottom: 35px;
+}
+
+.careerFormWrap .content h3 {
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+.careerFormWrap .careerForm .formGroup {
+  margin-bottom: 15px;
+}
+
+.careerFormWrap .careerForm .formGroup .formControl, .careerFormWrap .careerForm .formGroup select {
+  display: block;
+  padding: 20px 25px;
+  width: 100%;
+  border: none;
+  border: 1px solid #cccccc;
+  background-color: #fff;
+  border-radius: 0;
+  color: var(--paragraph-color);
+  font-size: var(--font-size);
+  font-weight: 400;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.careerFormWrap .careerForm .formGroup .formControl::-webkit-input-placeholder, .careerFormWrap .careerForm .formGroup select::-webkit-input-placeholder {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--paragraph-color);
+}
+
+.careerFormWrap .careerForm .formGroup .formControl:-ms-input-placeholder, .careerFormWrap .careerForm .formGroup select:-ms-input-placeholder {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--paragraph-color);
+}
+
+.careerFormWrap .careerForm .formGroup .formControl::-ms-input-placeholder, .careerFormWrap .careerForm .formGroup select::-ms-input-placeholder {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--paragraph-color);
+}
+
+.careerFormWrap .careerForm .formGroup .formControl::placeholder, .careerFormWrap .careerForm .formGroup select::placeholder {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--paragraph-color);
+}
+
+.careerFormWrap .careerForm .formGroup .formControl:focus, .careerFormWrap .careerForm .formGroup select:focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  border: 1px solid var(--main-color);
+}
+
+.careerFormWrap .careerForm .formGroup .formControl:focus::-webkit-input-placeholder, .careerFormWrap .careerForm .formGroup select:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.careerFormWrap .careerForm .formGroup .formControl:focus:-ms-input-placeholder, .careerFormWrap .careerForm .formGroup select:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.careerFormWrap .careerForm .formGroup .formControl:focus::-ms-input-placeholder, .careerFormWrap .careerForm .formGroup select:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.careerFormWrap .careerForm .formGroup .formControl:focus::placeholder, .careerFormWrap .careerForm .formGroup select:focus::placeholder {
+  color: transparent;
+}
+
+.careerFormWrap .careerForm .formGroup .formControl:focus-visible, .careerFormWrap .careerForm .formGroup select:focus-visible {
+  outline: 0;
+}
+
+.careerFormWrap .careerForm .formGroup textarea.form-control {
+  height: 120px !important;
+  display: inherit;
+}
+
+.careerFormWrap .careerForm .submitBtn button {
+  border: none;
+  width: 100%;
+  display: block;
+  padding: 20px 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  .careerFormWrap {
+    padding: 20px;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .careerFormWrap .content h3 {
+    font-size: 22px;
+  }
+  .careerFormWrap .careerForm .formGroup .formControl, .careerFormWrap .careerForm .formGroup select {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .careerFormWrap {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .careerFormWrap .content h3 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .careerFormWrap {
+    margin-left: 0;
+    padding: 30px;
+  }
+  .careerFormWrap .content h3 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=ApplyForm.module.css.map */

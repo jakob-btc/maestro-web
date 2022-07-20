@@ -1,0 +1,121 @@
+.careerFormWrap {
+    background-color: #f9fafb;
+    padding: 45px;
+    text-align: center;
+    margin-left: 30px;
+    
+    .content {
+        margin-bottom: 35px;
+
+        h3 {
+            font-size: 35px;
+            margin-bottom: 0;
+        }
+    }
+    .careerForm {
+        .formGroup {
+            margin-bottom: 15px;
+
+            .formControl, select {
+                display: block;
+                padding: 20px 25px;
+                width: 100%;
+                border: none;
+                border: 1px solid #cccccc;
+                background-color: #fff;
+                border-radius: 0;
+                color: var(--paragraph-color);
+                font-size: var(--font-size);
+                font-weight: 400;
+                transition: var(--transition);
+    
+                &::placeholder {
+                    transition: var(--transition);
+                    color: var(--paragraph-color);
+                }
+                &:focus {
+                    box-shadow: unset;
+                    border: 1px solid var(--main-color);
+    
+                    &::placeholder {
+                        color: transparent;
+                    }
+                }
+                &:focus-visible {
+                    outline: 0;
+                }
+            }
+            textarea {
+                &.form-control {
+                    height: 120px !important;
+                    display: inherit;
+                }
+            }
+        }
+        .submitBtn {
+            button {
+                border: none;
+                width: 100%;
+                display: block;
+                padding: 20px 25px;
+            }
+        }
+    }
+}
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .careerFormWrap {
+        padding: 20px;
+        margin-left: 0;
+        margin-top: 30px;
+    
+        .content {
+            h3 {
+                font-size: 22px;
+            }
+        }
+        .careerForm {
+            .formGroup {
+                .formControl, select {
+                   font-size: 14px;
+                   padding: 15px 20px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .careerFormWrap {
+        margin-left: 0;
+        margin-top: 30px;
+    
+        .content {
+            h3 {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .careerFormWrap {
+        margin-left: 0;
+        padding: 30px;
+        .content {
+            h3 {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}
+

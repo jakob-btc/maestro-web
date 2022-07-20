@@ -1,0 +1,334 @@
+.appointmentArea {
+  background-image: url(/images/appointment/bg-2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.appointmentArea::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #000000;
+  z-index: -1;
+  opacity: .30;
+}
+
+.appointmentVideo {
+  text-align: center;
+}
+
+.appointmentVideo .videoBtn {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 115px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  color: var(--main-color);
+  text-align: center;
+  font-size: 50px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.appointmentVideo .videoBtn i {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.appointmentVideo .videoBtn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 1px solid var(--main-color);
+  animation: ripple 1.5s linear infinite;
+  -webkit-animation: ripple 1.5s linear infinite;
+}
+
+.appointmentVideo .videoBtn:hover {
+  background-color: var(--main-color);
+}
+
+.appointmentVideo .videoBtn:hover i {
+  color: var(--white-color);
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(1.75);
+            transform: scale(1.75);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(1.75);
+            transform: scale(1.75);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.appointmentFormWrap {
+  background-color: #ffff;
+  padding: 45px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.appointmentFormWrap .content {
+  margin-bottom: 35px;
+}
+
+.appointmentFormWrap .content h3 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.appointmentFormWrap .appointmentForm .formGroup {
+  margin-bottom: 15px;
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formControl {
+  height: unset;
+  display: inline-block;
+  padding: 20px 25px;
+  width: 100%;
+  border: none;
+  border: 1px solid #cccccc;
+  background-color: #fff;
+  border-radius: 0;
+  color: var(--paragraph-color);
+  font-size: var(--font-size);
+  font-weight: 400;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formControl::-webkit-input-placeholder {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--paragraph-color);
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formControl:-ms-input-placeholder {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--paragraph-color);
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formControl::-ms-input-placeholder {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--paragraph-color);
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formControl::placeholder {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--paragraph-color);
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formControl:focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  border: 1px solid var(--main-color);
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formControl:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formControl:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formControl:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formControl:focus::placeholder {
+  color: transparent;
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formControl:focus-visible {
+  outline: 0;
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formSelect select {
+  height: unset;
+  display: inline-block;
+  padding: 20px 25px;
+  width: 100%;
+  border: none;
+  border: 1px solid #cccccc;
+  background-color: #fff;
+  border-radius: 0;
+  color: var(--paragraph-color);
+  font-size: var(--font-size);
+  font-weight: 400;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formSelect select::-webkit-input-placeholder {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--paragraph-color);
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formSelect select:-ms-input-placeholder {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--paragraph-color);
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formSelect select::-ms-input-placeholder {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--paragraph-color);
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formSelect select::placeholder {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--paragraph-color);
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formSelect select:focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  border: 1px solid var(--main-color);
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formSelect select:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formSelect select:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formSelect select:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formSelect select:focus::placeholder {
+  color: transparent;
+}
+
+.appointmentFormWrap .appointmentForm .formGroup .formSelect select:focus-visible {
+  outline: 0;
+}
+
+.appointmentFormWrap .appointmentForm .default-btn {
+  border: none;
+  width: 100%;
+  padding: 20px 25px;
+}
+
+.appointmentFormWrap .appointmentForm .default-btn::before {
+  width: 850px;
+  height: 850px;
+}
+
+@media only screen and (max-width: 767px) {
+  .appointmentFormWrap {
+    margin-left: 0;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .appointmentFormWrap .content {
+    margin-bottom: 20px;
+  }
+  .appointmentFormWrap .content h3 {
+    font-size: 25px;
+  }
+  .appointmentFormWrap .appointmentForm .formGroup .formControl {
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+  .appointmentFormWrap .appointmentForm .formGroup .formSelect select {
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appointmentFormWrap {
+    margin-left: 0;
+    margin-top: 30px;
+    padding: 30px;
+  }
+  .appointmentFormWrap .content {
+    margin-bottom: 20px;
+  }
+  .appointmentFormWrap .content h3 {
+    font-size: 30px;
+  }
+  .appointmentFormWrap .appointmentForm .formGroup .formControl {
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+  .appointmentFormWrap .appointmentForm .formGroup .formSelect select {
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .appointmentFormWrap {
+    margin-left: 0;
+    margin-top: 30px;
+    padding: 30px;
+  }
+  .appointmentFormWrap .content {
+    margin-bottom: 20px;
+  }
+  .appointmentFormWrap .content h3 {
+    font-size: 30px;
+  }
+  .appointmentFormWrap .appointmentForm .formGroup .formControl {
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+  .appointmentFormWrap .appointmentForm .formGroup .formSelect select {
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=AppointmentForm.module.css.map */

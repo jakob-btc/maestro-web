@@ -1,0 +1,131 @@
+.contactFormWrap h3 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.contactFormWrap .formGroup {
+  margin-bottom: 20px;
+}
+
+.contactFormWrap .formGroup .formControl {
+  height: 62px;
+  padding: 15px 20px;
+  line-height: initial;
+  color: var(--paragraph-color);
+  background-color: transparent;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  -webkit-box-shadow: unset !important;
+          box-shadow: unset !important;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: var(--font-size);
+  font-weight: 400;
+  display: block;
+  width: 100%;
+}
+
+.contactFormWrap .formGroup .formControl::-webkit-input-placeholder {
+  color: var(--paragraph-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.contactFormWrap .formGroup .formControl:-ms-input-placeholder {
+  color: var(--paragraph-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.contactFormWrap .formGroup .formControl::-ms-input-placeholder {
+  color: var(--paragraph-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.contactFormWrap .formGroup .formControl::placeholder {
+  color: var(--paragraph-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.contactFormWrap .formGroup .formControl:focus {
+  border-color: var(--main-color);
+}
+
+.contactFormWrap .formGroup .formControl:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.contactFormWrap .formGroup .formControl:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.contactFormWrap .formGroup .formControl:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.contactFormWrap .formGroup .formControl:focus::placeholder {
+  color: transparent;
+}
+
+.contactFormWrap .formGroup .formControl:focus-visible {
+  outline: 0;
+}
+
+.contactFormWrap .formGroup textarea {
+  height: auto !important;
+  padding: 15px 20px;
+}
+
+.contactFormWrap .sendBtn {
+  margin-top: 10px;
+}
+
+.contactFormWrap .sendBtn button {
+  border: none;
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .contactFormWrap h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .contactFormWrap .formGroup {
+    margin-bottom: 15px;
+  }
+  .contactFormWrap .formGroup .formControl {
+    height: 55px;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .contactFormWrap .sendBtn {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contactFormWrap h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .contactFormWrap .formGroup {
+    margin-bottom: 15px;
+  }
+  .contactFormWrap .formGroup .formControl {
+    font-size: 15px;
+  }
+  .contactFormWrap .sendBtn {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contactFormWrap h3 {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+}
+/*# sourceMappingURL=ContactForm.module.css.map */

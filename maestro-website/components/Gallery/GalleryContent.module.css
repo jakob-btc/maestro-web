@@ -1,0 +1,19 @@
+.singleGalleryItem {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  border-radius: 5px;
+}
+
+.singleGalleryItem img {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.singleGalleryItem:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=GalleryContent.module.css.map */

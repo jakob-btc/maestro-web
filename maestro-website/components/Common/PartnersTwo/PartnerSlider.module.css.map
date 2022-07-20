@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI;CAMtB;;AARD,AAII,aAJS,CAIT,IAAI,CAAC;EACD,SAAS,EAAE,gBAAgB;EAC3B,KAAK,EAAE,iBAAiB;CAC3B;;AAEL,AAAA,SAAS,CAAC;EACN,UAAU,EAAE,MAAM;CAOrB;;AARD,AAEI,SAFK,CAEL,GAAG,CAAC;EACA,OAAO,EAAE,uBAAuB;EAChC,SAAS,EAAE,eAAe;EAC1B,KAAK,EAAE,eAAe;EACtB,MAAM,EAAE,eAAe;CAC1B",
+    "sources": [
+        "PartnerSlider.module.scss"
+    ],
+    "names": [],
+    "file": "PartnerSlider.module.css"
+}

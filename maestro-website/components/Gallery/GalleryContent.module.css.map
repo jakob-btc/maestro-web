@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,aAAa,EAAE,IAAI;EACnB,aAAa,EAAE,GAAG;EAClB,QAAQ,EAAE,MAAM;EAChB,MAAM,EAAE,OAAO;EACf,aAAa,EAAE,GAAG;CASrB;;AAdD,AAMI,kBANc,CAMd,GAAG,CAAC;EACA,UAAU,EAAE,iBAAiB;CAChC;;AARL,AAUQ,kBAVU,AASb,MAAM,CACH,GAAG,CAAC;EACA,SAAS,EAAE,UAAU;CACxB",
+    "sources": [
+        "GalleryContent.module.scss"
+    ],
+    "names": [],
+    "file": "GalleryContent.module.css"
+}

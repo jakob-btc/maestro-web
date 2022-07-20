@@ -1,0 +1,135 @@
+.singleTestimonialsCard {
+    background-color: #f7f7f7;
+    padding: 40px 35px;
+    border-top: 2px solid var(--main-color);
+    position: relative;
+    transition: var(--transition);
+    margin-bottom: 25px;
+
+    .icon {
+        margin-bottom: 10px;
+
+        i {
+            font-size: 50px;
+            color: var(--main-color);
+            transition: var(--transition);
+        }
+    }
+    p {
+        margin-bottom: 0;
+        transition: var(--transition);
+    }
+    .info {
+        position: relative;
+        margin-top: 25px;
+        padding-left: 70px;
+
+        .img {
+            height: 52px;
+            width: 52px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            img {
+                border-radius: 50%;
+            }
+        }
+        h3 {
+            font-size: 20px;
+            margin-bottom: 0;
+            transition: var(--transition);
+            font-weight: 600;
+        }
+        span {
+            font-size: 15px;
+            display: inline-block;
+            margin-top: 5px;
+            transition: var(--transition);
+        }
+    }
+    .rating {
+        position: absolute;
+        top: 45px;
+        right: 35px;
+
+        i {
+            color: #fcdf69;
+            font-size: 18px;
+            margin-left: 5px;
+        }
+    }
+    &:hover {
+        background-color: var(--main-color);
+
+        .icon {
+            i {
+                color: var(--white-color);
+            }
+        }
+        p {
+            color: var(--white-color);
+        }
+        .info {
+            h3 {
+                color: var(--white-color);
+            }
+            span {
+                color: var(--white-color);
+            }
+        }
+    }
+}
+
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .singleTestimonialsCard {
+        padding: 25px 20px;
+        .icon {
+            i {
+                font-size: 35px;
+            }
+        }
+        .info {
+            h3 {
+                font-size: 18px;
+            }
+        }
+        .rating {
+            top: 32px;
+            right: 25px;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .singleTestimonialsCard {
+        padding: 35px 30px;
+        .icon {
+            i {
+                font-size: 35px;
+            }
+        }
+        .info {
+            h3 {
+                font-size: 18px;
+            }
+        }
+        .rating {
+            top: 40px;
+            right:30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}

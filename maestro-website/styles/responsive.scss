@@ -1,0 +1,380 @@
+@media only screen and (max-width: 767px) {
+    // Default CSS
+    body {
+        font-size: 15px;
+    }
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    .pb-75 {
+        padding-bottom: 25px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .default-btn {
+        padding: 11px 20px;
+        font-size: 14px;
+    }
+
+    // Section Title
+    .section-title {
+        margin: 0 auto 35px;
+
+        span {
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .section-title-wrap {
+        margin: 0 auto 35px;
+
+        span {
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        .see-more-btn {
+            position: relative;
+            margin-top: 25px;
+            display: inline-block;
+        }        
+    }
+
+    // Main Slides CSS
+    .home-slides {
+        &.owl-theme {
+            .owl-nav {
+                text-align: center;
+                [class*=owl-] {
+                    width: 50px;
+                    height: 35px;
+                    line-height: 40px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .hero-slides {
+        &.owl-theme {
+            .owl-nav [class*=owl-] {
+                width: 40px;
+                height: 40px;
+                line-height: 45px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    // Case Studies Slides
+    .case-studies-slides {
+        left: 0;
+
+        &.owl-theme {
+            .owl-nav {
+                right: 0;
+                left: auto;
+            }
+        }
+    }
+
+    /* About Funfact Card */
+    .about-funfact-card {
+        .row {
+            .col-lg-6 {
+                &:nth-child(1) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(2) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(3) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(4) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(5) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(6) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(7) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(8) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(9) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(10) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    // Faq Accordion
+    .faq-accordion {
+        .faq-content {
+            margin-bottom: 20px;
+            span {
+                font-size: 14px;
+            }
+            h3 {
+                font-size: 25px;
+            }
+        }
+        .accordion {
+            .accordion__item {
+                margin-bottom: 15px;
+                .accordion__panel {
+                    padding: 10px 25px 0;
+                }
+            }
+        }
+    }
+    .faq-image {
+        padding-left: 0;
+        margin-top: 30px;
+    } 
+
+    // Coming Soon Area CSS
+    .coming-soon-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .coming-soon-content {
+        padding: 30px 25px;
+
+        #timer {
+            margin-top: 20px;
+
+            div {
+                width: 100px;
+                height: 105px;
+                margin-left: 5px;
+                margin-right: 5px;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+        h2 {
+            font-size: 22px;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+     
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    // Default CSS
+    .ptb-100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .pt-100 {
+        padding-top: 70px;
+    }
+    .pb-100 {
+        padding-bottom: 70px;
+    }
+    .pb-75 {
+        padding-bottom: 45px;
+    }
+    .section-title {
+        margin: 0 auto 35px;
+        
+        h2 {
+            font-size: 35px;
+        }
+    }
+    .section-title-wrap {
+        margin: 0 auto 35px;
+        
+        h2 {
+            font-size: 35px;
+        }
+        .see-more-btn {
+            position: relative;
+            margin-top: 25px;
+            display: inline-block;
+        }        
+    }
+    
+    // Main Slides CSS
+    .home-slides {
+        &.owl-theme {
+            .owl-nav {
+                text-align: center;
+            }
+        }
+    }
+
+    // Case Studies Slides
+    .case-studies-slides {
+        left: 0;
+
+        &.owl-theme {
+            .owl-nav {
+                right: 0;
+                left: auto;
+            }
+        }
+    }
+
+    /* About Funfact Card */
+    .about-funfact-card {
+        .row {
+            .col-lg-6 {
+                &:nth-child(1) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(2) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(3) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(4) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(5) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(6) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(7) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(8) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(9) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+                &:nth-child(10) {
+                    margin-top: 25px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    // Faq Accordion
+    .faq-accordion {
+        .faq-content {
+            margin-bottom: 20px;
+            span {
+                font-size: 14px;
+            }
+            h3 {
+                font-size: 30px;
+            }
+        }
+        .accordion {
+            .accordion__item {
+                margin-bottom: 20px;
+                .accordion__panel {
+                    padding: 10px 25px 0;
+                }
+            }
+        }
+    }
+    .faq-image {
+        padding-left: 0;
+        margin-top: 30px;
+    } 
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    // Case Studies Slides
+    .case-studies-slides {
+        left: 0;
+
+        &.owl-theme {
+            .owl-nav {
+                right: 0;
+                left: auto;
+            }
+        }
+    }
+
+    // Faq Accordion
+    .faq-accordion {
+        .faq-content {
+            margin-bottom: 20px;
+            span {
+                font-size: 14px;
+            }
+            h3 {
+                font-size: 30px;
+            }
+        }
+        .accordion {
+            .accordion__item {
+                margin-bottom: 15px;
+                .accordion__panel {
+                    padding: 10px 25px 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    // Case Studies Slides
+    .case-studies-slides {
+        left: 0;
+
+        &.owl-theme {
+            .owl-nav {
+                right: 0;
+                left: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1449px) {
+     
+}
+
+@media only screen and (min-width: 1550px) {
+     
+}

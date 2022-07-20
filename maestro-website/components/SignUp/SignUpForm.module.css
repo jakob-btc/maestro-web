@@ -1,0 +1,143 @@
+.signUpForm {
+  max-width: 550px;
+  margin: auto;
+  text-align: center;
+  background-color: var(--white-color);
+  -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+          box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+  padding: 45px 35px;
+  border-radius: 5px;
+}
+
+.signUpForm h2 {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.signUpForm p {
+  margin-bottom: 0;
+}
+
+.signUpForm form {
+  margin-top: 35px;
+}
+
+.signUpForm form .formGroup {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.signUpForm form .formGroup label {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--black-color);
+  font-weight: 500;
+}
+
+.signUpForm form .formGroup .formControl {
+  height: 60px;
+  padding: 15px 25px;
+  line-height: initial;
+  color: var(--paragraph-color);
+  background-color: transparent;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: var(--font-size);
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+}
+
+.signUpForm form .formGroup .formControl::-webkit-input-placeholder {
+  color: var(--paragraph-color);
+}
+
+.signUpForm form .formGroup .formControl:-ms-input-placeholder {
+  color: var(--paragraph-color);
+}
+
+.signUpForm form .formGroup .formControl::-ms-input-placeholder {
+  color: var(--paragraph-color);
+}
+
+.signUpForm form .formGroup .formControl::placeholder {
+  color: var(--paragraph-color);
+}
+
+.signUpForm form .formGroup .formControl:focus::-webkit-input-placeholder {
+  color: transparent;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.signUpForm form .formGroup .formControl:focus:-ms-input-placeholder {
+  color: transparent;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.signUpForm form .formGroup .formControl:focus::-ms-input-placeholder {
+  color: transparent;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.signUpForm form .formGroup .formControl:focus::placeholder {
+  color: transparent;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.signUpForm form .formGroup .formControl:focus-visible {
+  outline: 0;
+}
+
+.signUpForm form .description {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.signUpForm form .signUpBtn button {
+  border: none;
+  margin-top: 30px;
+}
+
+.signUpForm form .accountText {
+  margin-top: 20px;
+}
+
+.signUpForm form .accountText span {
+  color: var(--paragraph-color);
+}
+
+.signUpForm form .accountText span a {
+  color: var(--main-color);
+}
+
+@media only screen and (max-width: 767px) {
+  .signUpForm {
+    padding: 30px 20px;
+  }
+  .signUpForm form {
+    margin-top: 20px;
+  }
+  .signUpForm form .formGroup label {
+    font-size: 15px;
+  }
+  .signUpForm form .formGroup .formControl {
+    height: 50px;
+  }
+  .signUpForm form .description {
+    font-style: italic;
+    margin-bottom: 0;
+  }
+  .signUpForm form .accountText span {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=SignUpForm.module.css.map */

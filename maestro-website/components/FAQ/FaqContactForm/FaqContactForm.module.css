@@ -1,0 +1,89 @@
+.faqContactForm {
+  max-width: 850px;
+  margin: auto;
+}
+
+.faqContactForm .formGroup {
+  margin-bottom: 20px;
+}
+
+.faqContactForm .formGroup .formControl {
+  height: 62px;
+  padding: 15px 20px;
+  display: block;
+  width: 100%;
+  line-height: initial;
+  color: var(--paragraph-color);
+  background-color: transparent;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  -webkit-box-shadow: unset !important;
+          box-shadow: unset !important;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: var(--font-size);
+  font-weight: 400;
+}
+
+.faqContactForm .formGroup .formControl::-webkit-input-placeholder {
+  color: var(--paragraph-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.faqContactForm .formGroup .formControl:-ms-input-placeholder {
+  color: var(--paragraph-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.faqContactForm .formGroup .formControl::-ms-input-placeholder {
+  color: var(--paragraph-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.faqContactForm .formGroup .formControl::placeholder {
+  color: var(--paragraph-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.faqContactForm .formGroup .formControl:focus {
+  border-color: var(--main-color);
+}
+
+.faqContactForm .formGroup .formControl:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.faqContactForm .formGroup .formControl:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.faqContactForm .formGroup .formControl:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.faqContactForm .formGroup .formControl:focus::placeholder {
+  color: transparent;
+}
+
+.faqContactForm .formGroup .formControl:focus-visible {
+  outline: 0;
+}
+
+.faqContactForm .formGroup textarea {
+  height: auto !important;
+  padding: 15px 20px;
+}
+
+.faqContactForm .sendBtn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.faqContactForm .sendBtn button {
+  border: none;
+}
+/*# sourceMappingURL=FaqContactForm.module.css.map */

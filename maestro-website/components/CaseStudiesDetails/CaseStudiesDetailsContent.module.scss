@@ -1,0 +1,168 @@
+.caseStudiesDetails {
+    h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    h3 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    h4 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    h5 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    h6 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    ul, ol {
+        margin-bottom: 20px;
+        li {
+            line-height: 1.8;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .img {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+   
+    .videoInro {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        position: relative;
+
+        .videoView {
+            position: absolute;
+            left: 0;
+            right: 0;
+            text-align: center;
+            top: 45%;
+            transform: translateY(-45%);
+        }
+        .videoBtn {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            line-height: 115px;
+            background-color: var(--white-color);
+            border-radius: 50%;
+            color: var(--main-color);
+            text-align: center;
+            font-size: 50px;
+            transition: var(--transition);
+            position: relative;
+            z-index: 1;
+            cursor: pointer;
+    
+            i {
+                transition: var(--transition);
+            }
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: -1;
+                bottom: 0;
+                left: 0;
+                border-radius: 50%;
+                border: 1px solid var(--main-color);
+                animation: ripple 5s linear infinite;
+                -webkit-animation: ripple 5s linear infinite;
+            }
+            &:hover {
+                background-color: var(--main-color);
+                
+                i {
+                    color: var(--white-color);
+                }
+            }
+        }
+    }
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.75);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .caseStudiesDetails {
+        h1 {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+        .img {
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        .videoInro {
+            margin-top: 20px;
+            margin-bottom: 15px;
+            .videoBtn {
+                width: 60px;
+                height: 60px;
+                line-height: 70px;
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .caseStudiesDetails {
+        h1 {
+            font-size: 30px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .caseStudiesDetails {
+        h1 {
+            font-size: 30px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}

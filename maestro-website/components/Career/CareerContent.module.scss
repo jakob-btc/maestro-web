@@ -1,0 +1,108 @@
+.careerItemContent {
+    h3 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+    .careerBox {
+        margin-top: 30px;
+
+        .careerContent {
+            h4 {
+                font-size: 20px;
+                margin-bottom: 12px;
+            }
+            p {
+                margin-bottom: 5px;
+
+                span {
+                    color: var(--black-color);
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .careerBtn {
+            text-align: center;
+
+            a {
+                padding: 18px 70px;
+            }
+            p {
+                margin-top: 10px;
+
+                span {
+                    color: var(--black-color);
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .careerItemContent {
+        text-align: center;
+        h3 {
+            font-size: 25px;
+        }
+        .careerBox {
+            .careerContent {
+                h4 {
+                    font-size: 18px;
+                }
+            }
+            .careerBtn {
+                margin-top: 25px;
+
+                a {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .careerItemContent {
+        .careerBox {
+            .careerContent {
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .careerItemContent {
+        h3 {
+            font-size: 30px;
+        }
+        .careerBox {
+            .careerBtn {
+                text-align: end;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .careerItemContent {
+        h3 {
+            font-size: 30px;
+        }
+        .careerBox {
+            .careerBtn {
+                text-align: end;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}

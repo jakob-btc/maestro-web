@@ -1,0 +1,214 @@
+/*================================================
+Footer Area CSS
+=================================================*/
+.footer-area {
+    background-image: url(/images/footer-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 195px;
+}
+.single-footer-widget {
+    margin-bottom: 25px;
+
+    .footer-widget-logo {
+        margin-bottom: 25px;
+    }
+    p {
+        margin-bottom: 0;
+        color: #9a9a9a;
+    }
+    .footer-widget-social {
+        padding: 0;
+        margin-bottom: 0;
+        margin-top: 20px;
+
+        li {
+            list-style-type: none;
+            display: inline-block;
+            margin: 0;
+            border-right: 1px solid #232436;
+
+            &:first-child {
+                border-right: none;
+            }
+            &:last-child {
+                border-right: none;
+            }
+            span {
+                font-size: 18px;
+                color: var(--white-color);
+                font-family: var(--heading-font-family);
+                margin-right: 10px;
+            }
+            a {
+                background-color: #101125;
+                padding: 8px 15px;
+
+                i {
+                    color: var(--white-color);
+                    position: relative;
+                    top: 2px;
+                }
+                &:hover {
+                    background-color: var(--main-color);
+                }
+            }
+        }
+    }
+    h3 {
+        font-size: 22px;
+        margin-bottom: 30px;
+        color: var(--white-color);
+    }
+    .quick-links {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style-type: none;
+
+        li {
+            margin-bottom: 15px;
+            list-style-type: none;
+
+            a {
+                display: inline-block;
+                color: #9a9a9a;
+                font-weight: 400;
+                font-size: var(--font-size);
+                
+                &:hover {
+                    color: var(--main-color);
+                    letter-spacing: 1px;
+                }
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+            span {
+                color: var(--black-color);
+            }
+        }
+    }
+    .footer-information {
+        padding: 0;
+        margin-bottom: 0;
+
+        li {
+            list-style-type: none;
+            margin-bottom: 15px;
+            color: #9a9a9a;
+            line-height: 30px;
+            position: relative;
+            // padding-left: 90px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+            span {
+                color: var(--main-color);
+                font-size: var(--font-size);
+                // position: absolute;
+                // left: 0;
+                // top: 0;
+            }
+            a {
+                color: #9a9a9a;
+
+                &:hover {
+                    color: var(--main-color);
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
+.copyright-area {
+    margin-top: 75px;
+    padding-bottom: 35px;
+
+    .copyright-area-content {
+        border-top: 1px solid #2d2a35;
+        padding-top: 30px;
+        text-align: center;
+
+        p {
+            font-weight: 400;
+            color: #9a9a9a;
+            
+            a {
+                display: inline-block;
+                font-weight: 500;
+                color: var(--main-color);
+
+                &:hover {
+                    color: var(--white-color);
+                }
+            }
+        }
+    }
+}
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .footer-area {
+        padding-top: 140px;
+    }
+    .single-footer-widget {
+        &.ps-5 {
+            padding-left: 0 !important;
+        }
+    }
+    .copyright-area {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-area {
+        padding-top: 165px;
+    }
+    .single-footer-widget {
+        &.ps-5 {
+            padding-left: 0 !important;
+        }
+    }
+    .copyright-area {
+        margin-top: 45px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-footer-widget {
+        .footer-widget-social {
+            li {
+                a {
+                    padding: 8px 9px;
+
+                    i {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .single-footer-widget {
+        .footer-widget-social {
+            li {
+                a {
+                    padding: 8px 10px;
+
+                    i {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

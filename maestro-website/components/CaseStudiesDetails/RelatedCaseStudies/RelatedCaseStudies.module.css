@@ -1,0 +1,94 @@
+.relatedCaseStudies {
+  margin-top: 30px;
+}
+
+.relatedCaseStudies h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.singleCaseStudiesCard {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  position: relative;
+}
+
+.singleCaseStudiesCard .caseImage {
+  position: relative;
+}
+
+.singleCaseStudiesCard .caseImage a {
+  display: block;
+}
+
+.singleCaseStudiesCard .caseImage a div {
+  display: block !important;
+}
+
+.singleCaseStudiesCard .caseImage a img {
+  display: block !important;
+}
+
+.singleCaseStudiesCard .caseImage .content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#002434));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #002434);
+}
+
+.singleCaseStudiesCard .caseImage .content span {
+  font-size: 14px;
+  color: var(--white-color);
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.singleCaseStudiesCard .caseImage .content h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.singleCaseStudiesCard .caseImage .content h3 a {
+  color: var(--white-color);
+}
+
+.singleCaseStudiesCard .caseImage .content h3 a:hover {
+  color: var(--main-color);
+}
+
+.dTable {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.dTableCell {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+@media only screen and (max-width: 767px) {
+  .relatedCaseStudies h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .relatedCaseStudies h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .relatedCaseStudies h2 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=RelatedCaseStudies.module.css.map */

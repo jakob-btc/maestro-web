@@ -1,0 +1,50 @@
+.faqContactForm {
+    max-width: 850px;
+    margin: auto;
+
+    .formGroup {
+        margin-bottom: 20px;
+
+        .formControl {
+            height: 62px;
+            padding: 15px 20px;
+            display: block;
+            width: 100%;
+            line-height: initial;
+            color: var(--paragraph-color);  
+            background-color: transparent;
+            border: 1px solid #ebebeb;
+            border-radius: 5px;
+            box-shadow: unset !important;
+            transition: var(--transition);
+            font-size: var(--font-size);
+            font-weight: 400;
+            
+            &::placeholder {
+                color: var(--paragraph-color);
+                transition: var(--transition);
+            }
+            &:focus {
+                border-color: var(--main-color);
+
+                &::placeholder {
+                    color: transparent;
+                }
+            }
+            &:focus-visible {
+                outline: 0;
+            }
+        }
+        textarea {
+            height: auto !important;
+            padding: 15px 20px;
+        }
+    }
+    .sendBtn {
+        text-align: center;
+        margin-top: 10px;
+        button {
+            border: none;
+        }
+    }
+}

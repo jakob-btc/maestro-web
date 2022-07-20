@@ -1,0 +1,87 @@
+.termsOfServiceContent h1 {
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+.termsOfServiceContent h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.termsOfServiceContent h3 {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.termsOfServiceContent h4 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.termsOfServiceContent h5 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.termsOfServiceContent h6 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.termsOfServiceContent .blockquote, .termsOfServiceContent blockquote {
+  margin-bottom: 30px;
+  background-color: #e6f2f5;
+  text-align: left !important;
+  padding: 15px 25px !important;
+  border-radius: 5px;
+  line-height: 1.5;
+}
+
+.termsOfServiceContent .blockquote p, .termsOfServiceContent blockquote p {
+  margin-bottom: 0;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.termsOfServiceContent .blockquote::after, .termsOfServiceContent blockquote::after {
+  display: none;
+}
+
+.termsOfServiceContent .blockquote::before, .termsOfServiceContent blockquote::before {
+  display: none;
+}
+
+.termsOfServiceContent ol, .termsOfServiceContent ul {
+  margin-bottom: 20px;
+}
+
+.termsOfServiceContent ol li, .termsOfServiceContent ul li {
+  margin-bottom: 10px;
+  color: var(--font-size);
+  line-height: 1.8;
+  font-weight: 400;
+  font-size: var(--font-size);
+  color: var(--paragraph-color);
+}
+
+@media only screen and (max-width: 767px) {
+  .termsOfServiceContent h1 {
+    font-size: 25px;
+  }
+  .termsOfServiceContent h2 {
+    font-size: 22px;
+  }
+  .termsOfServiceContent h3 {
+    font-size: 20px;
+  }
+  .termsOfServiceContent h4 {
+    font-size: 22px;
+  }
+  .termsOfServiceContent h5 {
+    font-size: 20px;
+  }
+  .termsOfServiceContent h6 {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=TermsOfServiceContent.module.css.map */
